@@ -145,9 +145,8 @@ body{
 }
 .Notes .notes-content1{
     background-color: white;
-    
     width: 95%;
-    height: 590px;
+    height: 570px;
     margin-top: 8%;
     margin-left: 2%;
     border: 2px solid lightgray;
@@ -202,7 +201,7 @@ body{
 }
 
 .notes-content2 .row{
-    margin-top: 2%;
+    margin-top: 15px;
     text-align: justify;
     letter-spacing: 1px;
 }

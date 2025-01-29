@@ -188,7 +188,7 @@ td {
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(198, 198, 198);
     border-radius: 2px;
-    
+    box-shadow: 0 4px 8px 0 rgb(232, 232, 232), 0 6px 20px 0 rgb(209, 199, 199);
   }
 
   .class-name{

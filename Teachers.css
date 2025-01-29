@@ -164,6 +164,7 @@ body{
     border: 1px solid lightgray;
     border-radius: 10px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(232, 232, 232), 0 6px 20px 0 rgb(209, 199, 199);
 }
 .row-card .t-sub{
     margin-left: 21%;

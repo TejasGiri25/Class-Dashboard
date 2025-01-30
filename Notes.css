@@ -151,6 +151,7 @@ body{
     margin-left: 2%;
     border: 2px solid lightgray;
     border-radius: 32px;
+    box-shadow: 0 4px 8px 0 rgb(232, 232, 232), 0 6px 20px 0 rgb(209, 199, 199);
 }
 .Notes .row .col-lg-6{
     width: 100%;

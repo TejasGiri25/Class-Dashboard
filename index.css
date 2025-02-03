@@ -1,7 +1,12 @@
 
 /*-----------------SideBar- Start------------------ */
+html{
+    margin: 0;
+}
+
 body{
-    background-color: #f6f5f5;
+    background-color: #fbfbfb;
+    height: 100vh;
 }
 .sidebar {
     
@@ -17,267 +22,13 @@ body{
     color: white;
     width: 90%;
     margin-left: 5%;
-    /*-----------------SideBar- Start------------------ */
-    html{
-        margin: 0;
-    }
-    
-    body{
-        background-color: #fbfbfb;
-        height: 100vh;
-    }
-    .sidebar {
-        
-        position: fixed;
-        width: 20%;
-        height: 100%;
-        background:  #000000;
-        padding: 30px 0;
-    }
-    .roun{
-        background-color: rgb(50, 52, 53);
-        border-radius: 10px;
-        color: white;
-        width: 90%;
-        margin-left: 5%;
-        height: 60px;
-        display: inline-flex;
-    }
-    .middle-icon{
-        font-size: 25px;
-    }
-    
-    .col-lg-8{
-        width: 111px;
-        margin-top: 4%;
-        margin-bottom: 1%;
-        margin-left: 7%;
-    }
-    .col-lg-2{
-        margin-left: 10%;
-        margin-top: 2.8%;
-    }
-    .img{
-        width: 42px;
-        height: 40px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-    }
-    
-    .container .sidebar .mcontent{
-        margin-top: 12%;
-        
-    }
-    .container .sidebar .mcontent a{
-        
-        color: #c2c2c2;
-        background-color: #000000;
-        padding: 15px;
-        font-size: 14px;
-        display: block; 
-        text-decoration: none;
-        border-bottom: 1px solid black;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-    .container .sidebar a:hover{
-        
-        color: white;
-        background-color: rgb(50, 52, 53);
-        border-radius: 12px;
-        margin-left: 5%;
-        /* margin-right: 5%; */
-        font-size: 18px;
-        text-decoration: underline;
-    }
-    .mcontent .setting{
-        border-top: 1px solid gray;
-        margin-top: 62%;
-    }
-    .mcontent .setting a{
-        margin-left: 20%;
-        margin-top: 5%;
-    }
-    
-    .micon{
-        font-size: 17px;
-        margin-right: 12px;
-        margin-left: 15px;
-    }
-    .micon1{
-        font-size: 17px;
-        margin-right: 8px;
-        margin-left: 14px;
-    }
-    
-    /* -------------------SideBar- End ------------------*/
-    
-    .header{
-        width: 80%;
-        height: 80px;
-        background-color: white;
-        margin-bottom: 20%;
-        border-bottom: 2px solid lightgray;
-        position: fixed;
-    }
-    .Hname{
-        margin-top: 2%;
-        margin-left: 8%;
-        font-size: 30px;
-        letter-spacing: 1px;
-        font-weight: bolder;
-        text-decoration: solid black;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .search-box {
-        
-        max-width: 400px;
-        margin: 50px auto;
-    }
-    .search-box input {
-        border-radius: 10px;
-        padding: 10px 20px;
-        border: 1px solid #ccc;
-        outline: none;
-        width: 328px;
-        background-color: rgb(246, 246, 246);
-    }
-    .large-icon{
-        font-size: 25px;
-        letter-spacing: 14px;
-        color: rgb(177, 177, 177);
-    }
-    .middle{
-        margin-left: 20%;
-        position: fixed;
-        width: 80%;
-    }
-    .middle .row{
-        width: 100%;
-        display: flex;
-    }
-    .row-scale{
-        margin-top: 2%;
-        width: 310px; 
-        height: 10px; 
-        background-color: rgb(129, 129, 129); 
-        border-radius: 15px;
-    }
-    .card{
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        border-radius: 22px;
-        background-color: white;
-        width: 94%;
-        height: 150px;
-    
-    }
-    .middle .row .col-lg-3{
-        width: 49%;
-    } 
-    .second{
-        margin-top: 8%;
-    }
-    .third{
-        margin-top: 1%;
-    }
-    .micon5{
-        font-size: 100px;
-        margin-top: 11%;
-        margin-right: 5px;
-        margin-left: 1px;
-    }
-    .roun5{
-        background-color: white;
-        border-radius: 22px;
-        color: black;
-        width: 100%;
-        border: 2px solid lightgray;
-        height: 150px;
-        display: inline-flex;
-    }
-    .col-lg-9{
-        margin-top: 4%;
-        margin-left: 7%;
-    }
-    .col-lg-6{
-        width: 100%;
-    }
-    .col-lg-5{
-        width: 100%;
-    }
-    .col-lg-4{
-        width: 100%;
-    }
-    /* .black{
-        float: left;
-        width: 70px;
-        height: 70px;
-        background-color: black;
-        border: 1px solid lightgray;
-    } */
-    
-    .white{
-        float: left;
-        width: 157px;
-        height: 70px;
-        background-color: white;
-        border: 1px solid lightgray;
-    }
-    .gray{
-        float: left;
-        width: 157px;
-        height: 70px;
-        background-color: rgb(209, 209, 209);
-        border: 1px solid lightgray;
-    }
-    .gray .col-lg-3{
-        background-color: white; 
-        color: gray;
-        margin-left: 50%;
-        margin-top: 2%;
-        margin-right: 2%;
-        border-radius: 10px;
-        padding: 1px;
-        font-size: 10px;
-        width: 5px;
-        height: 12px;
-    }
-    /* .date-circle{
-        padding: 2px 2px;
-        margin-left: 4%;
-        margin-top: 4px;
-        font-size: 10px;
-        border: 1px solid rgb(108, 108, 108);
-        width: 12px;
-        height: 10px;
-        border-radius: 70px;
-        color: rgb(63, 63, 63);
-    } */
-    .date{
-        margin-left: 8%;
-        margin-top: 4%;
-        font-size: 10px;
-    }
-    .Small-cal-heading{
-        margin-top: 4%;
-        margin-bottom: 2%;
-        margin-left: 8%;
-        font-size: 14px;
-        font-weight: bolder;
-    }
-    .Small-cal-heading1{
-        margin-top: 1px;
-        margin-left: 8%;
-        font-size: 9px;
-        color: gray;
-        font-weight: bolder;
-    }
     height: 60px;
     display: inline-flex;
 }
 .middle-icon{
     font-size: 25px;
 }
+
 .col-lg-8{
     width: 111px;
     margin-top: 4%;
@@ -323,7 +74,7 @@ body{
 }
 .mcontent .setting{
     border-top: 1px solid gray;
-    margin-top: 70%;
+    margin-top: 62%;
 }
 .mcontent .setting a{
     margin-left: 20%;
@@ -356,6 +107,7 @@ body{
     margin-left: 8%;
     font-size: 30px;
     letter-spacing: 1px;
+    font-weight: bolder;
     text-decoration: solid black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -386,14 +138,20 @@ body{
     width: 100%;
     display: flex;
 }
-
+.row-scale{
+    margin-top: 2%;
+    width: 310px; 
+    height: 10px; 
+    background-color: rgb(129, 129, 129); 
+    border-radius: 15px;
+}
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 22px;
     background-color: white;
     width: 94%;
     height: 150px;
-    /* border: 1px solid gray; */
+
 }
 .middle .row .col-lg-3{
     width: 49%;
@@ -432,21 +190,13 @@ body{
 .col-lg-4{
     width: 100%;
 }
-
-
-
-/* .row{
-    width: 80%;
-    justify-content: center;
-} */
-
-.black{
+/* .black{
     float: left;
     width: 70px;
     height: 70px;
     background-color: black;
     border: 1px solid lightgray;
-}
+} */
 
 .white{
     float: left;
@@ -455,20 +205,52 @@ body{
     background-color: white;
     border: 1px solid lightgray;
 }
-.date-circle{
-    margin-left: 5%;
-    margin-top: 2%;
-    font-size: 10px;
-    border: 1px solid black;
-    width: 12px;
-    height: 12px;
-    border-radius: 70px;
+.gray{
+    float: left;
+    width: 157px;
+    height: 70px;
+    background-color: rgb(209, 209, 209);
+    border: 1px solid lightgray;
 }
-.date{
-    margin-left: 5%;
+.gray .col-lg-3{
+    background-color: white; 
+    color: gray;
+    margin-left: 50%;
     margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 1px;
     font-size: 10px;
-    /* border: 2px solid black;
-    width: 18px;
-    border-radius: 70px; */
+    width: 5px;
+    height: 12px;
+}
+/* .date-circle{
+    padding: 2px 2px;
+    margin-left: 4%;
+    margin-top: 4px;
+    font-size: 10px;
+    border: 1px solid rgb(108, 108, 108);
+    width: 12px;
+    height: 10px;
+    border-radius: 70px;
+    color: rgb(63, 63, 63);
+} */
+.date{
+    margin-left: 8%;
+    margin-top: 4%;
+    font-size: 10px;
+}
+.Small-cal-heading{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.Small-cal-heading1{
+    margin-top: 1px;
+    margin-left: 8%;
+    font-size: 9px;
+    color: gray;
+    font-weight: bolder;
 }

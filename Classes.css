@@ -69,7 +69,7 @@ body{
 }
 .mcontent .setting{
     border-top: 1px solid gray;
-    margin-top: 70%;
+    margin-top: 62%;
 }
 .mcontent .setting a{
     margin-left: 20%;
@@ -233,7 +233,7 @@ body{
 }
 .row .col-lg-2-t{
     margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 14px;
 }
 
 .row .col-lg-2-t .hero-text{
